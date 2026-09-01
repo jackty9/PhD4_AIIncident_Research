@@ -1,0 +1,8 @@
+mit_domain_id,mit_domain_label,claude_pct,gpt_pct,manual_pct,realized_pct
+1,Malicious Actors & Misuse,10.9,10.0,18.2,41.2
+2,"AI System Safety, Failures, and Limitations",12.7,14.0,14.5,19.0
+3,Discrimination and Toxicity,1.8,2.0,1.8,14.6
+4,Misinformation,3.6,4.0,7.3,14.3
+5,Privacy & Security,63.6,66.0,49.1,6.5
+6,Human-Computer Interaction,1.8,2.0,1.8,3.2
+7,Socioeconomic & Environmental Harms,5.5,2.0,7.3,1.2

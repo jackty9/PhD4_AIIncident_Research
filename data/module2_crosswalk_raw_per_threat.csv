@@ -1,0 +1,56 @@
+id,threat,claude_cat,claude_label,gpt_cat,gpt_label,manual_cat,manual_label,claude_gpt_agree,manual_claude_agree,manual_gpt_agree,all_three_agree
+T-01,Prompt Injection,5,Privacy & Security,5.0,Privacy & Security,1,Malicious Actors & Misuse,True,False,False,False
+T-02,Indirect Prompt Injection,5,Privacy & Security,5.0,Privacy & Security,1,Malicious Actors & Misuse,True,False,False,False
+T-03,Sensitive Information Disclosure,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-04,Hallucination,4,Misinformation,4.0,Misinformation,4,Misinformation,True,True,True,True
+T-05,Insecure Output Handling,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-06,System Prompt / Hidden Context Exposure,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-07,Vector / RAG Poisoning,5,Privacy & Security,5.0,Privacy & Security,4,Misinformation,True,False,False,False
+T-08,Cost Denial-of-Service,5,Privacy & Security,5.0,Privacy & Security,7,Socioeconomic & Environmental Harms,True,False,False,False
+T-09,Jailbreak / Safety Bypass,1,Malicious Actors & Misuse,1.0,Malicious Actors & Misuse,1,Malicious Actors & Misuse,True,True,True,True
+T-10,IP Infringement,7,Socioeconomic & Environmental Harms,7.0,Socioeconomic & Environmental Harms,7,Socioeconomic & Environmental Harms,True,True,True,True
+T-11,Goal Hijacking,5,Privacy & Security,2.0,"AI System Safety, Failures, and Limitations",1,Malicious Actors & Misuse,False,False,False,False
+T-12,Tool Misuse / Excessive Agency,2,"AI System Safety, Failures, and Limitations",2.0,"AI System Safety, Failures, and Limitations",2,"AI System Safety, Failures, and Limitations",True,True,True,True
+T-13,Identity and Privilege Abuse,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-14,Supply Chain Compromise,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-15,Unexpected Code Execution,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-16,Memory / State Poisoning,5,Privacy & Security,2.0,"AI System Safety, Failures, and Limitations",2,"AI System Safety, Failures, and Limitations",False,False,True,False
+T-17,Insecure Inter-Agent Communication,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-18,Cascading Failure,2,"AI System Safety, Failures, and Limitations",2.0,"AI System Safety, Failures, and Limitations",2,"AI System Safety, Failures, and Limitations",True,True,True,True
+T-19,Trust Exploitation,6,Human-Computer Interaction,6.0,Human-Computer Interaction,6,Human-Computer Interaction,True,True,True,True
+T-20,Rogue Agents,2,"AI System Safety, Failures, and Limitations",2.0,"AI System Safety, Failures, and Limitations",2,"AI System Safety, Failures, and Limitations",True,True,True,True
+T-21,MCP Server Compromise,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-22,Unauthorized MCP Server Exposure,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-23,MCP Context Manipulation,5,Privacy & Security,5.0,Privacy & Security,4,Misinformation,True,False,False,False
+T-24,OAuth / Token Cascade,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-25,Model Evasion / KYC Bypass,1,Malicious Actors & Misuse,1.0,Malicious Actors & Misuse,1,Malicious Actors & Misuse,True,True,True,True
+T-26,Data Poisoning,5,Privacy & Security,5.0,Privacy & Security,2,"AI System Safety, Failures, and Limitations",True,False,False,False
+T-27,Model Extraction,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-28,Model Inversion / Membership Inference,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-29,Model Drift,2,"AI System Safety, Failures, and Limitations",2.0,"AI System Safety, Failures, and Limitations",2,"AI System Safety, Failures, and Limitations",True,True,True,True
+T-30,Bias and Fairness Failures,3,Discrimination and Toxicity,3.0,Discrimination and Toxicity,3,Discrimination and Toxicity,True,True,True,True
+T-31,Compromised Foundation Model,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-32,Insecure AI Infrastructure,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-33,Lack of AI Bill of Materials,2,"AI System Safety, Failures, and Limitations",,,5,Privacy & Security,False,False,False,False
+T-34,Insecure AI-Generated Code,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-35,Deepfake Fraud,1,Malicious Actors & Misuse,1.0,Malicious Actors & Misuse,1,Malicious Actors & Misuse,True,True,True,True
+T-36,AI-Enhanced Phishing,1,Malicious Actors & Misuse,1.0,Malicious Actors & Misuse,1,Malicious Actors & Misuse,True,True,True,True
+T-37,Shadow AI,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-38,AI Offensive Operations,1,Malicious Actors & Misuse,1.0,Malicious Actors & Misuse,1,Malicious Actors & Misuse,True,True,True,True
+T-39,Regulatory Non-Compliance,7,Socioeconomic & Environmental Harms,,,7,Socioeconomic & Environmental Harms,False,True,False,False
+T-40,Lethal Trifecta,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-41,Browser-Agent Hijacking,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-42,Tool Description Injection,5,Privacy & Security,5.0,Privacy & Security,1,Malicious Actors & Misuse,True,False,False,False
+T-43,AI-Washing,4,Misinformation,4.0,Misinformation,4,Misinformation,True,True,True,True
+T-44,AI Worms,1,Malicious Actors & Misuse,5.0,Privacy & Security,5,Privacy & Security,False,False,True,False
+T-45,Foundation Model Concentration,7,Socioeconomic & Environmental Harms,,,7,Socioeconomic & Environmental Harms,False,True,False,False
+T-46,Malicious AI Skills / Plugins,5,Privacy & Security,5.0,Privacy & Security,1,Malicious Actors & Misuse,True,False,False,False
+T-47,Skill Supply Chain Compromise,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-48,Over-Privileged AI Skills,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-49,Insecure Skill Metadata,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-50,Unsafe Skill Deserialization,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-51,Weak Skill Isolation,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
+T-52,Skill Update Drift,2,"AI System Safety, Failures, and Limitations",2.0,"AI System Safety, Failures, and Limitations",2,"AI System Safety, Failures, and Limitations",True,True,True,True
+T-53,Poor Skill Scanning,5,Privacy & Security,,,5,Privacy & Security,False,True,False,False
+T-54,Lack of Skill Governance,2,"AI System Safety, Failures, and Limitations",,,2,"AI System Safety, Failures, and Limitations",False,True,False,False
+T-55,Cross-Platform Skill Exploitation,5,Privacy & Security,5.0,Privacy & Security,5,Privacy & Security,True,True,True,True
